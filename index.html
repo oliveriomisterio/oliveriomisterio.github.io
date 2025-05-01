@@ -1,169 +1,113 @@
-<html>
-
- 
-
-
- 
+<!DOCTYPE html>
+<html lang="en">
 <head>
- 
-    <title>Oliverio Misterio</title>
- 
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sono">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quantico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h4,h5,h6 {font-family: "Sono", sans-serif}
+h1,h2,h3, {font-family: "Quantico", sans-serif} 
+.w3-bar,h1,button {font-family: "Sono", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
 </head>
+<body>
 
-<h1>Mi página web</h1>
- 
-
- 
-</p>
- 
-
- 
-
-    <!--how to forget the marquee 💚 -->
- 
-    <marquee>WEB EN CONSTRUCCIÓN</marquee> 
- 
-
- 
-    <p>Mi web tendrá:</p>
- 
-        <li>Cosas chulisimas</li>
- 
-        <li>Cosas cutres</li>
- 
-        <li>Otro tipo de cosas</li>
- 
-
-
- <div class="container">
-  <div class="components">
-    
-    <div class="switch">
-      <div class="switch__1">
-        <input id="switch-1" type="checkbox">
-        <label for="switch-1"></label>
-      </div>
-      
-      <div class="switch__2">
-        <input id="switch-2" type="checkbox" checked>
-        <label for="switch-2"></label>
-      </div>
-    </div>
-    
-    <div class="checkbox">
-      <div class="checkbox__1">
-        <input id="checkbox-1" type="checkbox">
-        <label for="checkbox-1">
-          <i class="material-icons">done</i></label>
-      </div>
-      <div class="checkbox__2">
-        <input id="checkbox-2" type="checkbox" checked>
-        <label for="checkbox-2">
-          <i class="material-icons">done</i></label>
-      </div>
-    </div>
-    
-    <div class="radio">
-      <div class="radio__1">
-        <input id="radio-1" type="radio"  name="radio" value="1">
-        <label for="radio-1"></label>
-      </div>
-      
-      <div class="radio__2">
-        <input id="radio-2" type="radio" name="radio" value="2" checked>
-        <label for="radio-2"></label>
-      </div>
-    </div>
-    
-    <div class="btn btn__primary"><p>Button</p></div>
-    <div class="btn btn__secondary"><p>Button</p></div>
-    
-    <div class="clock">
-      <div class="hand hours"></div>
-      <div class="hand minutes"></div>
-      <div class="hand seconds"></div>
-      <div class="point"></div>
-      <div class="marker">
-        <span class="marker__1"></span>
-        <span class="marker__2"></span>
-        <span class="marker__3"></span>
-        <span class="marker__4"></span>
-      </div>
-    </div>
-    
-    <div class="chip">
-      <div class="chip__icon">
-        <ion-icon name="color-palette"></ion-icon></div>
-      <p>Neumorphic Design</p>
-      <div class="chip__close">
-        <ion-icon name="close"></ion-icon>
-      </div>
-    </div>
-    
-    <div class="circle">
-      <span class="circle__btn">
-        <ion-icon class="pause" name="pause"></ion-icon>
-        <ion-icon class="play" name="play"></ion-icon>
-      </span>
-      <span class="circle__back-1"></span>
-      <span class="circle__back-2"></span>
-    </div>
-    
-    <div class="form">
-      <input type="text" class="form__input" placeholder="Type anything...">
-    </div>
-    
-    <div class="search">
-      <input type="text" class="search__input" placeholder="Search...">
-      <div class="search__icon">
-        <ion-icon name="search"></ion-icon>
-      </div>
-    </div>
-    
-    <div class="segmented-control">
-      
-      <input type="radio" name="radio2" value="3" id="tab-1" checked/>
-      <label for="tab-1" class= "segmented-control__1">
-        <p>Tab 1</p></label>
-      
-      <input type="radio" name="radio2" value="4" id="tab-2" />
-      <label for="tab-2" class= "segmented-control__2">
-        <p>Tab 2</p></label>
-      
-      <input type="radio" name="radio2" value="5" id="tab-3" />
-      <label for="tab-3" class= "segmented-control__3">
-        <p>Tab 3</p></label>
-      
-      <div class="segmented-control__color"></div>
-    </div>
-    
-    <div class="icon">
-      <div class="icon__home">
-        <ion-icon name="home"></ion-icon></div>
-      <div class="icon__account">
-        <ion-icon name="person"></ion-icon></div>
-      <div class="icon__settings">
-        <ion-icon name="settings"></ion-icon></div>
-    </div>
-    
-    <div class="slider">
-      <div class="slider__box">
-        <span class="slider__btn" id="find"></span>
-        <span class="slider__color"></span>
-        <span class="slider__tooltip">50%</span>
-      </div>
-    </div>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
   </div>
-  <a href="https://dribbble.com/myacode" class="dribbble" target="_blank"><ion-icon name="logo-dribbble"></ion-icon></a>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
 </div>
 
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">START PAGE</h1>
+  <p class="w3-xlarge">Template by w3.css</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+</header>
 
- 
-    </ul>
- 
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
 
- 
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
 </body>
- 
-
-</html>     
+</html>
