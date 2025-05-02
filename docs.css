@@ -30,7 +30,7 @@ button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[
 .circle {
 	display: grid;
 	place-items: center;
-	background-color: #afd275;
+	background-color: #180f9e; 
 	font-size: 1rem;
 	font-weight: 600;
 	text-align: center;
@@ -57,7 +57,7 @@ button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[
 }
 
 .raised-inset {
-	box-shadow: 6px 6px 14px 0 rgba(127, 170, 55, 0.5),
+	box-shadow: 6px 6px 14px 0 rgba(21, 14, 130, 0.5),
 		-7px -7px 12px 0 rgba(220, 235, 194, 0.4);
 }
 .raised-inset:hover {
