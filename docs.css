@@ -30,11 +30,11 @@ button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[
 .circle {
 	display: grid;
 	place-items: center;
-	background-color: #180f9e; 
+	background-color: #0f2f6f; 
 	font-size: 1rem;
 	font-weight: 600;
 	text-align: center;
-	color: navy;
+	color: white;
 }
 
 .button {
@@ -72,10 +72,10 @@ button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[
 		-3px -3px 12px 0 rgba(81, 57, 213, 0.4);
 }
 .convex-concave:hover {
-	box-shadow: 6px 6px 8px 0 rgba(127, 170, 55, 0.5) inset,
-		-7px -7px 12px 0 rgba(220, 235, 194, 0.4) inset,
-		-6px -6px 14px 0 rgba(127, 170, 55, 0.5),
-		3px 3px 12px 0 rgba(220, 235, 194, 0.4);
+	box-shadow: 6px 6px 8px 0 rgba(24, 6, 68, 0.2) inset,
+		-7px -7px 12px 0 rgba(81, 57, 213, 0.2) inset,
+		-6px -6px 14px 0 rgba(24, 6, 68, 0.2),
+		3px 3px 12px 0 rgba(81, 57, 213, 0.2);
 	cursor: pointer;
 }
 
@@ -334,4 +334,3 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-dark-grey,.w3-hover-border-dark-grey:hover,.w3-border-dark-gray,.w3-hover-border-dark-gray:hover{border-color:#616161!important}
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7!important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
-
