@@ -66,10 +66,10 @@ button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[
 }
 
 .convex-concave {
-	box-shadow: -6px -6px 8px 0 rgba(127, 170, 55, 0.5) inset,
-		7px 7px 12px 0 rgba(220, 235, 194, 0.4) inset,
-		6px 6px 14px 0 rgba(127, 170, 55, 0.5),
-		-3px -3px 12px 0 rgba(220, 235, 194, 0.4);
+	box-shadow: -6px -6px 8px 0 rgba(20, 4, 59, 0.5) inset,
+		7px 7px 12px 0 rgba(81, 57, 213, 0.4) inset,
+		6px 6px 14px 0 rgba(24, 6, 68, 0.5),
+		-3px -3px 12px 0 rgba(81, 57, 213, 0.4);
 }
 .convex-concave:hover {
 	box-shadow: 6px 6px 8px 0 rgba(127, 170, 55, 0.5) inset,
