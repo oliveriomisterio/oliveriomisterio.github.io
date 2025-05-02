@@ -42,6 +42,8 @@ button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[
 	height: 50px;
 	border: none;
 	border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .oval,
@@ -50,7 +52,7 @@ button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[
 	border-radius: 50%;
 }
 .oval {
-	width: 150px;
+	width: 170px;
 }
 .circle {
 	width: 100px;
@@ -100,6 +102,21 @@ button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[
 		drop-shadow(3px 3px 3px rgba(255, 255, 255, 0.8));
 }
 
+/*FIN BOTON*/
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.container1 {
+  height: 100px;
+  position: relative;
+
+}
 
 fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
 legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
