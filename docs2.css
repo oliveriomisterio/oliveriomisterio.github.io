@@ -2,7 +2,7 @@
   padding: 60px;
   text-align: center;
   background: #0f2f6f;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 20px;
 }
 
@@ -65,4 +65,31 @@
   height: 100px;
   position: relative;
 }
+
+.spacer1 {
+  height: 30px;
+  position: relative;
+}
 /* Container pa centrar el boton chulo */
+
+.cardContainer {
+padding-top: 50px;
+padding-bottom: 50px;
+padding-left: 30px;
+padding-right: 30px;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  background: #d2d2d2;
+}
+.card {
+    display: flex;
+padding: 20px;
+
+  width: 90%;
+  height: 254px;
+  border-radius: 30px;
+  background: #d6d6d6;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
