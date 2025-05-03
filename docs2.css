@@ -72,6 +72,7 @@
 }
 /* Container pa centrar el boton chulo */
 
+/* Cards */
 .cardContainer {
 padding-top: 50px;
 padding-bottom: 50px;
@@ -86,10 +87,15 @@ padding-right: 30px;
     display: flex;
 padding: 20px;
 
-  width: 90%;
+  width: 800px;
   height: 254px;
   border-radius: 30px;
   background: #d6d6d6;
   box-shadow: 15px 15px 30px #bebebe,
              -15px -15px 30px #ffffff;
+}
+
+.textContainer {
+    text-align: left;
+    margin: 20px;
 }
