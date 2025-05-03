@@ -97,7 +97,10 @@
 
 .card {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
+    max-width: 50rem;
+    overflow: hidden;
    padding: 20px;
   border-radius: 30px;
   background: #d6d6d6;
@@ -106,8 +109,8 @@
 }
 
 .textContainer {
-    width:400px;
     text-align: left;
+    flex: 1 0 50%;
     vertical-align: text-top;
     margin: 20px;
 }
