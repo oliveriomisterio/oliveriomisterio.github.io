@@ -1,29 +1,101 @@
- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sono">
- <link rel="stylesheet" type="text/css" href="docs2.css"/>
- <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Sono", sans-serif}
-</style>
- <div class="header">
-  <h1>Oliverio Misterio</h1>
-  <p>La página web</p>
-   <div class="spacer1"> </div>
-  <div class="container1">
-<div class="center">
-  <div class="oval convex-concave">Botón inútil</div>
-  </div>
-  </div>
-</div> 
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #0f2f6f;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
 
- <div class="cardContainer">
- <div class="card">
-<div>
-     <a href="https://cdn-images.dzcdn.net/images/artist/585bc1674b704365e612aa092c588d06/1900x1900-000000-80-0-0.jpg"><img src="https://cdn-images.dzcdn.net/images/artist/585bc1674b704365e612aa092c588d06/1900x1900-000000-80-0-0.jpg" alt="HTML tutorial" style="width:200px;height:200px;"></a>
-  <p>Julius Eastman</p>
-  </div> 
-  <div>
-     <p>Fue uno de los primeros músicos en combinar procesos minimalistas con elementos de la música pop, así como, dentro de su música, presentar tendencias dramáticas y de suspenso. </p>
-    </div> 
-    </div> 
- </div>
+/* BOTON CHULO */
+.oval,
+.circle {
+	display: grid;
+	place-items: center;
+	background-color: #0f2f6f; 
+	font-size: 1rem;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+}
 
+.button {
+	width: 150px;
+	height: 50px;
+	border: none;
+	border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+.oval,
+.circle {
+	height: 100px;
+	border-radius: 50%;
+}
+
+.oval {
+	width: 170px;
+    }
+
+    .convex-concave {
+	box-shadow: -6px -6px 8px 0 rgba(20, 4, 59, 0.5) inset,
+		7px 7px 12px 0 rgba(81, 57, 213, 0.4) inset,
+		6px 6px 14px 0 rgba(24, 6, 68, 0.5),
+		-3px -3px 12px 0 rgba(81, 57, 213, 0.2);
+}
+.convex-concave:hover {
+	box-shadow: 6px 6px 8px 0 rgba(24, 6, 68, 0.4) inset,
+		-7px -7px 12px 0 rgba(81, 57, 213, 0.2) inset,
+		-6px -6px 14px 0 rgba(24, 6, 68, 0.2),
+		3px 3px 12px 0 rgba(81, 57, 213, 0.2);
+	cursor: pointer;
+}
+/* BOTON CHULO */
+
+/* Container pa centrar el boton chulo */
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.container1 {
+  height: 100px;
+  position: relative;
+}
+
+.spacer1 {
+  height: 30px;
+  position: relative;
+}
+/* Container pa centrar el boton chulo */
+
+/* Cards */
+.cardContainer {
+padding-top: 50px;
+padding-bottom: 50px;
+padding-left: 30px;
+padding-right: 30px;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  background: #d2d2d2;
+}
+.card {
+    display: flex;
+padding: 20px;
+
+  width: 800px;
+  height: 254px;
+  border-radius: 30px;
+  background: #d6d6d6;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+.textContainer {
+    text-align: left;
+    margin: 20px;
+}
