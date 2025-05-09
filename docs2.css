@@ -55,6 +55,41 @@
 		3px 3px 12px 0 rgba(81, 57, 213, 0.2);
 	cursor: pointer;
 }
+
+    .convex-concave-azul {
+	box-shadow: -6px -6px 8px 0 rgba(20, 4, 59, 0.5) inset,
+		7px 7px 12px 0 rgba(81, 57, 213, 0.4) inset;
+}
+.convex-concave-azul:hover {
+    color:red;
+	box-shadow: 6px 6px 8px 0 rgba(24, 6, 68, 0.4) inset,
+		-7px -7px 12px 0 rgba(81, 57, 213, 0.2) inset;
+	cursor: pointer;
+}
+
+    .convex-concave-verde {
+	box-shadow: -6px -6px 8px 0 #097c2a inset,
+		7px 7px 12px 0 #4db93b inset;
+}
+.convex-concave-verde:hover {
+    color:black;
+	box-shadow: 6px 6px 8px 0 #097c2a inset,
+		-7px -7px 12px 0 #4db93b inset;
+	cursor: pointer;
+}
+
+
+    .convex-concave-marron {
+	box-shadow: -6px -6px 8px 0 #462e1c inset,
+		7px 7px 12px 0 #93603b inset;
+}
+.convex-concave-marron:hover {
+    color:black;
+	box-shadow: 6px 6px 8px 0 #462e1c inset,
+		-7px -7px 12px 0 #93603b inset;
+	cursor: pointer;
+}
+
 /* BOTON CHULO */
 
 /* Container pa centrar el boton chulo */
